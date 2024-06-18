@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    box-sizing: border-box;
+    margin:0px;
+    font-size: 16px;
+    text-decoration: none;
+}
+body{
+    font-family:'Open Sans',sans-serif ;
+}
+/*Fonts*/
+.card-title{
+    font-size: 3.125rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    line-height: 1.1;
+}
+.card-subtitle{
+    font-size: 1.625rem;
+    font-weight: 400;
+    margin: 1rem 0;
+}
+.email-form-title{
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+/*banner section*/
+.banner-wrap{
+    background-image: url(./assets/netflix-bg-image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:100vh;
+    border-bottom: 10px solid rgb(35 35 35);
+    position: relative;
+    z-index: 1;
+}
+.overlay{
+    z-index: -1;
+    height:100%;
+    width: 100%;
+    background: black;
+    opacity: 60%;
+    position: absolute;
+    top: 0;
+}
+.navbar{
+    height:20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 85px;
+    margin: 0px 45px;
+    padding-top: 45px;
+}
+.navbar img{
+    height: 145px;
+}
+.navbar a{
+    padding:7px 24px;
+    color: white;
+    background-color: red;
+    text-decoration: none;
+    border-radius: 3px;
+}
+.banner-container{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+    text-align: center;
+}
+.get-started-form{
+    height:48px;
+    display: flex;
+}
+input{
+    height:48px;
+    width:345px;
+    padding-left: 10px;
+    display: flex;
+    border-radius: 3px;
+    border: 1px solid rgb(121, 120, 120);
+    background: transparent;
+    color: lightgray;
+    font-weight: 500;
+}
+button{
+    height:100%;
+    width:214px;
+    background-color: red;
+    color: white;
+    border: none;
+    margin-left:8px;
+    padding: 0 26px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    border-radius: 3px;
+}
+/*information section*/
+.info-container{
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 70px 45px;
+    border-bottom: 10px solid rgb(35 35 35);
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.tv-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tv-container img{
+    z-index: 1;
+}
+.tv-container video{
+    position: absolute;
+}
+/*footer section*/
+.footer{
+    background-color: black;
+}
+.footer-items{
+    margin: 0 47.5px;
+    padding: 70px 45px;
+}
+.footer-top{
+    margin-bottom: 30px;
+}
+.footer-top a{
+    color:rgb(173 173 179);
+}
+.footer-top p{
+    font-size: 16px;
+}
+ul, p{
+    color:rgb(173 173 179);
+}
+.footer-links li{
+    line-height:2;
+    font-size: 14px;
+}
+.footer ul li{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.questions-title{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.footer-links{
+    list-style-type: none;
+    columns: 4;
+    padding: 0;
+}
+.footer-items p{
+    margin-top: 60px;
+}
+.language{
+    height:32px;
+    width:126px;
+    color:whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: 1px solid rgb(173 173 179);
+    padding: 0 10px;
+    margin-top: 40px;
+    border-radius: 3px;
+}
+.language select{
+    margin-left: 10px;
+    border: none;
+    appearance: none;
+    color:whitesmoke;
+    background-color: black;
+}
